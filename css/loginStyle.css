@@ -1,0 +1,52 @@
+body {
+    /*background-color: #1B1C1D;*/
+    background-image: url("../img/meeting_edit.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.ui.container {
+    height: auto;
+    width: 400px;
+}
+
+
+.ui.container.text-container {
+    width: 700px !important;
+}
+
+.ui.form {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+
+.ui.form .field > label {
+    color: white;
+}
+
+.ui.checkbox > label, .ui.checkbox > label:hover, .ui.checkbox > label::selection {
+    color: white;
+}
+
+.ui.header {
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 50px;
+}
