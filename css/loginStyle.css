@@ -3,9 +3,8 @@ body {
     background-image: url("../img/meeting_edit.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: contain;
+    -o-background-size: cover;
     background-size: cover; /*try cover*/
-
 }
 
 .main-container {
