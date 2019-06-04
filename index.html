@@ -14,35 +14,49 @@
 
     <!--Custom Style-->
     <link rel="stylesheet" href="css/loginStyle.css">
+<style>
+.button {
+  background-color: #008CBA;
+  border: none;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
 
+.button:hover {
+  background-color: #00526E;
+}
+
+.contact-form
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 400px;
+            height: 270px;
+            padding: 30px 20px;
+            box-sizing: border-box;
+            background: rgba(0,0,0,.5);
+        }
+
+</style>
 </head>
 <body>
 <div class="main-container">
     <div class="ui container main-container">
-        <form class="ui form" method="post">
-            <h1 class="ui header">BiB - Survey</h1>
-            <div class="field">
-                <label for="username">Username</label>
-                <input name="username" id="username" type="text" placeholder="Username">
-            </div>
-            <div class="field">
-                <label for="email">Email</label>
-                <input id="email" type="text" name="password" placeholder="email"/>
-            </div>
-
-            <div class="field">
-                <label for="age">Age</label>
-                <input id="age" type="age" name="age" placeholder="age"/>
-            </div>
-            <button class="ui button fluid blue" name="submit" href="index2.html" type="submit" id="submit">Fill the survey</button>
-        </form>
-    </div>
-    <div class="ui container text-container">
-        <br>
-        <br>
-        <br>
-        <div class="ui ignored blue message">
-            Go!        </div>
+<div class="contact-form">
+            <h1 class="ui header">Barter Is Back (BiB)</h1>
+<p align = "center"><font color = "white">
+Skill exchange platform for learning and teaching with no money involved just like BARTER of older times!</font></p>
+            <h1 class="ui header">Coming Soon!</h1>
+            <center><a href="https://forms.gle/8UHFFKcMdRfkpkYK7"><button class="button">Take survey now!</button></a></center>
+</div>
     </div>
 </div>
 
